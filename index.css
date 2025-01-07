@@ -56,11 +56,11 @@ h1{font-family: Arial, Helvetica, sans-serif;
                 
 
                 
-                .card2-container{
-                    display: flex;
-                    flex-direction: row;
+               .card2-container{
+                    display: grid;
+                    grid-template-columns: auto;
                     margin: 20px 30px 30px 20px;
-                    border: 2px solid white;
+                    
                     justify-content: center;
                     text-align: left;
                     border-radius: 20px;
@@ -72,8 +72,7 @@ h1{font-family: Arial, Helvetica, sans-serif;
                     max-width: 500px;
                     
                 }
-                .box1{display: flow-root;
-                    object-fit: contain;}
+                
 .footer-nav a{
     text-decoration: none;
     font-size: large;
